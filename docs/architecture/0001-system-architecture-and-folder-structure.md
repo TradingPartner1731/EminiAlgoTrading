@@ -45,7 +45,7 @@ To maintain **interpretability**, the repository is organized by "concerns." A p
 │
 ├── docs/                       # Living Labs Documentation
 │   ├── architecture/           # System design (This folder)
-│   ├── decisions/              # ADRs (Architecture Decision Records)
+│   ├── changelog/              # ADRs (Architecture Decision Records)
 │   └── logs/                   # Trading journals & Post-mortems
 │
 ├── tests/                      # Unit tests for Math & Logic

@@ -1,0 +1,86 @@
+# === Project Specifics ===
+.env
+*.log
+data/
+research/tradingagents/paper.pdf
+
+# === Python / Data Science ===
+__pycache__/
+*.py[cod]
+*$py.class
+.venv
+venv/
+ENV/
+.python-version
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Data Science Libraries
+.pandas_store
+.pytype/
+cython_debug/
+
+# === C++ / Build Systems ===
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# CMake
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+# === Rust ===
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# === IDEs / Editors ===
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# === Distribution / Packaging ===
+dist/
+build/
+eggs/
+*.egg-info/
+*.egg
